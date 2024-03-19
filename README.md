@@ -1,6 +1,8 @@
 # Sharp Turn Detection Using GPS Data
 
-This project involves the use of GPS data to detect sharp turns by a vehicle, utilizing machine learning techniques. The Python code provided loads GPS data, processes it, and analyzes the vehicle's movement to identify sharp turns based on changes in direction over time.
+Accidents involving commercial trucks can have devastating consequences, both in terms of human lives and financial implications. According to the Federal Motor Carrier Safety Administration (FMCSA), the estimated average accident costs for semi-trucks are $91,000, with average injury costs around $334,892 and average fatal accident settlements exceeding $7.2 million. Given these staggering figures, prioritizing safety measures is paramount for truckers and fleet management companies.
+
+This project addresses the critical need for accident prevention by leveraging GPS data to detect sharp turns made by semi-trucks. By employing rule-based & advanced machine learning techniques, the provided Python code processes GPS data, meticulously analyzing the trucks's movements to identify instances of sharp turns based on significant changes in direction over time. 
 
 ## Getting Started
 
@@ -11,11 +13,13 @@ Ensure you have Python installed on your machine along with the following librar
 - `numpy`
 - `pandas`
 - `matplotlib`
+- `scikit-learn`
+- `imbalanced-learn`
 
 You can install these dependencies using pip:
 
 ```bash
-pip install numpy pandas matplotlib
+pip install numpy pandas matplotlib scikit-learn imbalanced-learn
 ```
 
 ## Installation
